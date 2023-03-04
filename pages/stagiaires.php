@@ -164,7 +164,7 @@
                     <ul class="pagination">
                         <?php for($i=1;$i<=$nbrPage;$i++){ ?>
                             <li class="<?php if($i==$page) echo 'active' ?>"> 
-            <a href="stagiaires.php?page=<?php echo $i;?>&nomPrenom=<?php echo $nomPrenom ?>&idfiliere=<?php echo $idfiliere ?>">
+                                <a href="stagiaires.php?page=<?php echo $i;?>&nomPrenom=<?php echo $nomPrenom ?>&idfiliere=<?php echo $idfiliere ?>">
                                     <?php echo $i; ?>
                                 </a> 
                              </li>

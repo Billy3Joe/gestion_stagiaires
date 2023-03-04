@@ -14,7 +14,6 @@
         <?php include("menu.php"); ?>
         
         <div class="container">
-                       
              <div class="panel panel-primary margetop60">
                 <div class="panel-heading">Veuillez saisir les données de la nouvelle filère</div>
                 <div class="panel-body">
@@ -30,11 +29,11 @@
                         <div class="form-group">
                             <label for="niveau">Niveau:</label>
 				            <select name="niveau" class="form-control" id="niveau">
-                                <option value="q">Qualification</option>
-                                <option value="t">Technicien</option>
-                                <option value="ts" selected>Technicien Spécialisé</option>
-                                <option value="l">Licence</option>
-                                <option value="m">Master</option> 
+                                <option value="BEPC">BEPC</option>
+                                <option value="BAC">BAC</option>
+                                <option value="BTS" selected>BTS</option>
+                                <option value="LICENCE">LICENCE</option>
+                                <option value="MASTER">MASTER</option> 
 				            </select>
                         </div>
                         

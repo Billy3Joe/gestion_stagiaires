@@ -81,11 +81,11 @@
 			            <select name="niveau" class="form-control" id="niveau"
                                 onchange="this.form.submit()">
                             <option value="all" <?php if($niveau==="all") echo "selected" ?>>Tous les niveaux</option>
-                            <option value="q"   <?php if($niveau==="q")   echo "selected" ?>>Qualification</option>
-                            <option value="t"   <?php if($niveau==="t")   echo "selected" ?>>Technicien</option>
-                            <option value="ts"  <?php if($niveau==="ts")  echo "selected" ?>>Technicien Spécialisé</option>
-                            <option value="l"   <?php if($niveau==="l")   echo "selected" ?>>Licence</option>
-                            <option value="m"   <?php if($niveau==="m")   echo "selected" ?>>Master</option> 
+                            <option value="BEPC"   <?php if($niveau==="BEPC")   echo "selected" ?>>BEPC</option>
+                            <option value="BAC"   <?php if($niveau==="BAC")   echo "selected" ?>>BAC</option>
+                            <option value="BTS"  <?php if($niveau==="BTS")  echo "selected" ?>>BTS</option>
+                            <option value="LICENCE"   <?php if($niveau==="LICENCE")   echo "selected" ?>>LICENCE</option>
+                            <option value="MASTER"   <?php if($niveau==="MASTER")   echo "selected" ?>>MASTER</option> 
 			            </select>
 			            
 				        <button type="submit" class="btn btn-success">
