@@ -15,7 +15,8 @@ session_destroy();
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../css/monstyle.css">
 </head>
-<body>
+<body style="background-color:orange;">
+<h1 style="text-align: center; color:#fff;">GESTION STAGIAIRES</h1>
 <div class="container col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
     <div class="panel panel-warning margetop60">
         <div class="panel-heading">CONNEXION :</div>

@@ -16,9 +16,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
     if (isset($login)) {
-        $filtredLogin = filter_var($login, FILTER_SANITIZE_STRING);
+        // $filtredLogin = filter_var($login, FILTER_SANITIZE_STRING);
 
-        if (strlen($filtredLogin) < 4) {
+        if (strlen($login) < 4) {
             $validationErrors[] = "Erreur!!! Le login doit contenir au moins 4 caratères";
         }
     }
@@ -82,11 +82,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" type="text/css" href="../css/monstyle.css">
 
 </head>
-<body>
+<body style="background-color:orange;">
 
 <div class="container col-md-6 col-md-offset-3">
-    <h1 class="text-center"> Création d'un nouveau compte utilisateur</h1>
-
+    <h1 class="text-center;" style="text-align: center; color:#fff;"> Création d'un nouveau compte utilisateur</h1>
+    <br><br><br>
     <form class="form" method="post">
 
         <div class="input-container">
@@ -133,6 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
 
         <input type="submit" class="btn btn-primary" value="Enregistrer">
+        <a href="login.php" style="color: #fff;">J'ai déjà un compte, je me connecte</a>
     </form>
     <br>
     <?php
